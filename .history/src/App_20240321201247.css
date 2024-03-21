@@ -3,31 +3,25 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f5f5f5;
 }
 
-.password-input,
-.length-input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.password-input {
   margin-bottom: 20px;
 }
 
-.password-input input,
-.length-input input {
-  flex-grow: 1;
+.password-input input {
   padding: 8px;
-  border: none;
   margin-right: 10px;
 }
 
+.length-input {
+  margin-bottom: 20px;
+}
+
 .length-input input {
+  padding: 8px;
   width: 60px;
+  margin-right: 10px;
 }
 
 .checkboxes {
@@ -40,18 +34,28 @@
   margin-right: 5px;
 }
 
-.generate,
-.copy {
+.generate {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-.generate:hover,
-.copy:hover {
+.generate:hover {
   background-color: #0056b3;
+}
+.password-input{
+  display: flex;
+  align-items: center;
+
+}
+.copy{
+  
+  background-color: #007bff;
+  color: #fff;
+  
+ text-align: center;
+  cursor: pointer;
 }

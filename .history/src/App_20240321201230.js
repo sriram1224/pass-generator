@@ -50,7 +50,7 @@ function App() {
         <button className="copy" onClick={() => navigator.clipboard.writeText(password)}><span class="material-symbols-outlined">
 content_copy
         </span>
-        </button>
+        Copy</button>
       </div>
       <div className="length-input">
         <input type="number" value={length} onChange={(e) => setLength(parseInt(e.target.value))} min="1" max="50" />

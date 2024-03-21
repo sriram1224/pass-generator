@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.password-input {
+  margin-bottom: 20px;
+}
+
+.password-input input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.length-input {
+  margin-bottom: 20px;
+}
+
+.length-input input {
+  padding: 8px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.checkboxes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkboxes input {
+  margin-right: 5px;
+}
+
+.generate {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generate:hover {
+  background-color: #0056b3;
+}
+.password-input{
+  display: flex;
+  align-items: center;
+
+}
+.copy {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  margin-left: 10px; /* Some space from the left */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.copy:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

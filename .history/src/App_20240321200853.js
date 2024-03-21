@@ -47,10 +47,9 @@ function App() {
     <div className="container">
       <div className="password-input">
         <input type="text" value={password} placeholder='Password...' readOnly />
-        <button className="copy" onClick={() => navigator.clipboard.writeText(password)}><span class="material-symbols-outlined">
-content_copy
-        </span>
-        </button>
+        <button className="copy" onClick={() => navigator.clipboard.writeText(password)}><span class="material-symbols-outlined ">
+content_paste
+</span></button>
       </div>
       <div className="length-input">
         <input type="number" value={length} onChange={(e) => setLength(parseInt(e.target.value))} min="1" max="50" />
